@@ -6,9 +6,10 @@ In this problem you will model a simple block world under certain rules and cons
 
 The problem is to parse a series of commands that instruct a robot arm in how to manipulate blocks that lie on a flat table. Initially there are n blocks on the table (numbered from 0 to n − 1) with block bi adjacent to block bi+1 for all 0 ≤ i < n − 1 as shown in the diagram below
 
-| 0 | 1 | 2 | .. | n-1 |
-| - | - | - | -- | --- |
-| | | | | |
+| 0 | 1 | 2 | 3 | 4 | .. | n-1 |
+| - | - | - | - | - | -- | --- |
+
+Initial Blocks World
 
 ## **Commands**
 
