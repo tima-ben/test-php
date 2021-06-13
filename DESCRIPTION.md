@@ -51,5 +51,3 @@ You may assume that all commands will be of the form specified above. There will
 
 The output should consist of the final state of the blocks world. Each original block position numbered i (0 ≤ i < n where n is the number of blocks) should appear followed immediately by a colon. If there is at least a block on it, the colon must be followed by one space, followed by a list of blocks that appear stacked in that position with each block number separated from other block numbers by a space. Don’t put any trailing spaces on a line.
 There should be one line of output for each block position (i.e., n lines of output where n is the integer on the first line of input).
-
-
