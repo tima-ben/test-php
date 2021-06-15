@@ -1,0 +1,21 @@
+{
+    "name": "balan/test-salesfloor",
+    "description": "Test for Salesfloor company on post sr. PHP Developer",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "8.5.x-dev"
+    },
+    "license": "Free",
+    "autoload": {
+        "psr-4": {
+            "Balan\\TestSalesfloor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduard Balantsev",
+            "email": "balantsev.eduard@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

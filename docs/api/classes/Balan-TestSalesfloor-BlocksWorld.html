@@ -52,7 +52,11 @@
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
                                 <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
-                                    </section>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/balan.html"><abbr title="\Balan">Balan</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/balan-testsalesfloor.html"><abbr title="\Balan\TestSalesfloor">TestSalesfloor</abbr></a></li>
+                                    </ul>
+                        </section>
 
     
     <section class="phpdocumentor-sidebar__category">
@@ -70,7 +74,8 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
-            <li class="phpdocumentor-breadcrumb"><a href="packages/Default.html">Default</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/balan.html">Balan</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/balan-testsalesfloor.html">TestSalesfloor</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
@@ -89,31 +94,8 @@
 </aside>
 
         
-    <section class="phpdocumentor-description"></section>
 
 
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">link</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                                        <a class="phpdocumentor-tag-link" href="https://github.com/tima-ben/test-salesfloor"> https://github.com/tima-ben/test-salesfloor </a>
-                    
-                                    </dd>
-                                                <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">copyright</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2021 Eduard Balantsev</p>
-</section>
-
-                                    </dd>
-                        </dl>
 
 
 
@@ -127,49 +109,63 @@
 
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/BlocksWorld.html#constant_DEFAULT_BLOCK_COUNT">DEFAULT_BLOCK_COUNT</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#constant_DEFAULT_BLOCK_COUNT">DEFAULT_BLOCK_COUNT</a>
     <span>
         &nbsp;= 10                    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/BlocksWorld.html#constant_MAX_BLOCK_COUNT">MAX_BLOCK_COUNT</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#constant_MAX_BLOCK_COUNT">MAX_BLOCK_COUNT</a>
     <span>
         &nbsp;= 24                    </span>
 </dt>
 <dd></dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#constant_MIN_BLOCK_COUNT">MIN_BLOCK_COUNT</a>
+    <span>
+        &nbsp;= 2                    </span>
+</dt>
+<dd></dd>
+
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/BlocksWorld.html#property_blocks">$blocks</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#property_blocks">$blocks</a>
     <span>
                 &nbsp;: array&lt;string|int, int&gt;            </span>
 </dt>
 <dd>The value is the number of stack where the block is located</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/BlocksWorld.html#property_n">$n</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#property_n">$n</a>
     <span>
                 &nbsp;: int            </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
-    <a href="classes/BlocksWorld.html#property_stacks">$stacks</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#property_stacks">$stacks</a>
     <span>
                 &nbsp;: array&lt;string|int, array&lt;string|int, int&gt;&gt;            </span>
 </dt>
 <dd>The value is the array the numbers of blocks in stack</dd>
 
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method___construct">__construct()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method___construct">__construct()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_cutBlockFromStack">cutBlockFromStack()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_commandFromString">commandFromString()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Make command from string</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_cutBlockFromStack">cutBlockFromStack()</a>
     <span>
                         &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
@@ -177,63 +173,63 @@
 all blocks start from $number to the end if $move = false.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_getBlocks">getBlocks()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getBlocks">getBlocks()</a>
     <span>
                         &nbsp;: array&lt;string|int, int&gt;    </span>
 </dt>
 <dd>Getter for property &quot;block&quot;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_getN">getN()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getN">getN()</a>
     <span>
                         &nbsp;: int    </span>
 </dt>
 <dd>Getter for property &quot;n&quot;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_getStackByBlock">getStackByBlock()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getStackByBlock">getStackByBlock()</a>
     <span>
                         &nbsp;: int    </span>
 </dt>
 <dd>The method getStackByBlock return index of stack where this block is located.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_getStacks">getStacks()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getStacks">getStacks()</a>
     <span>
                         &nbsp;: array&lt;string|int, array&lt;string|int, int&gt;&gt;    </span>
 </dt>
 <dd>Getter for roperty &quot;stacks&quot;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_moveInto">moveInto()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_moveInto">moveInto()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
 <dd>Performs an operation &quot;move a into b&quot;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_moveOver">moveOver()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_moveOver">moveOver()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
 <dd>Performs an operation &quot;move a over b&quot;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_pileInto">pileInto()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_pileInto">pileInto()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
 <dd>Performs an operation &quot;pile a into b&quot;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_pileOver">pileOver()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_pileOver">pileOver()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
 <dd>Performs an operation &quot;pile a over b&quot;</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_putStackToBlock">putStackToBlock()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_putStackToBlock">putStackToBlock()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
@@ -241,14 +237,14 @@ all blocks start from $number to the end if $move = false.</dd>
 on top of stack with block $number if $into is false</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/BlocksWorld.html#method_showCondition">showCondition()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_showCondition">showCondition()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
 <dd>The method showCondition put out on console current etas</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/BlocksWorld.html#method_checkIsLegal">checkIsLegal()</a>
+    <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_checkIsLegal">checkIsLegal()</a>
     <span>
                         &nbsp;: bool    </span>
 </dt>
@@ -262,12 +258,12 @@ on top of stack with block $number if $into is false</dd>
     <section class="phpdocumentor-constants">
         <h3 class="phpdocumentor-elements__header" id="constants">
             Constants
-            <a href="classes/BlocksWorld.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_DEFAULT_BLOCK_COUNT">
         DEFAULT_BLOCK_COUNT
-        <a href="classes/BlocksWorld.html#constant_DEFAULT_BLOCK_COUNT" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#constant_DEFAULT_BLOCK_COUNT" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -293,7 +289,7 @@ on top of stack with block $number if $into is false</dd>
                     <article class="phpdocumentor-element -constant -public ">
     <h4 class="phpdocumentor-element__name" id="constant_MAX_BLOCK_COUNT">
         MAX_BLOCK_COUNT
-        <a href="classes/BlocksWorld.html#constant_MAX_BLOCK_COUNT" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#constant_MAX_BLOCK_COUNT" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
 
     <aside class="phpdocumentor-element-found-in">
@@ -316,13 +312,39 @@ on top of stack with block $number if $into is false</dd>
     
 
 </article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_MIN_BLOCK_COUNT">
+        MIN_BLOCK_COUNT
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#constant_MIN_BLOCK_COUNT" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">MIN_BLOCK_COUNT</span>
+    = <span class="phpdocumentor-signature__default-value">2</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
             </section>
 
         
     <section class="phpdocumentor-properties">
         <h3 class="phpdocumentor-elements__header" id="properties">
             Properties
-            <a href="classes/BlocksWorld.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="
@@ -333,14 +355,14 @@ on top of stack with block $number if $into is false</dd>
 >
     <h4 class="phpdocumentor-element__name" id="property_blocks">
         $blocks
-        <a href="classes/BlocksWorld.html#property_blocks" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#property_blocks" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 </aside>
 
         <p class="phpdocumentor-summary">The value is the number of stack where the block is located</p>
@@ -365,14 +387,14 @@ on top of stack with block $number if $into is false</dd>
 >
     <h4 class="phpdocumentor-element__name" id="property_n">
         $n
-        <a href="classes/BlocksWorld.html#property_n" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#property_n" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">45</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 </aside>
 
     
@@ -396,14 +418,14 @@ on top of stack with block $number if $into is false</dd>
 >
     <h4 class="phpdocumentor-element__name" id="property_stacks">
         $stacks
-        <a href="classes/BlocksWorld.html#property_stacks" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#property_stacks" class="headerlink"><i class="fas fa-link"></i></a>
         <span class="phpdocumentor-element__modifiers">
                                 </span>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 </aside>
 
         <p class="phpdocumentor-summary">The value is the array the numbers of blocks in stack</p>
@@ -424,7 +446,7 @@ on top of stack with block $number if $into is false</dd>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/BlocksWorld.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -434,12 +456,12 @@ on top of stack with block $number if $into is false</dd>
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/BlocksWorld.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">55</span>
 </aside>
 
     
@@ -475,14 +497,60 @@ on top of stack with block $number if $into is false</dd>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_cutBlockFromStack">
-        cutBlockFromStack()
-        <a href="classes/BlocksWorld.html#method_cutBlockFromStack" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_commandFromString">
+        commandFromString()
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_commandFromString" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">173</span>
+    <span class="phpdocumentor-element-found-in__line">267</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Make command from string</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">commandFromString</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$command</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$command</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>ok | error | stop</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_cutBlockFromStack">
+        cutBlockFromStack()
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_cutBlockFromStack" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">179</span>
 </aside>
 
         <p class="phpdocumentor-summary">Cut from stack one block $number from stack if $move = true or
@@ -534,12 +602,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getBlocks">
         getBlocks()
-        <a href="classes/BlocksWorld.html#method_getBlocks" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getBlocks" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
+    <span class="phpdocumentor-element-found-in__line">72</span>
 </aside>
 
         <p class="phpdocumentor-summary">Getter for property &quot;block&quot;</p>
@@ -568,12 +636,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getN">
         getN()
-        <a href="classes/BlocksWorld.html#method_getN" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getN" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
+    <span class="phpdocumentor-element-found-in__line">90</span>
 </aside>
 
         <p class="phpdocumentor-summary">Getter for property &quot;n&quot;</p>
@@ -602,12 +670,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getStackByBlock">
         getStackByBlock()
-        <a href="classes/BlocksWorld.html#method_getStackByBlock" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getStackByBlock" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">229</span>
+    <span class="phpdocumentor-element-found-in__line">235</span>
 </aside>
 
         <p class="phpdocumentor-summary">The method getStackByBlock return index of stack where this block is located.</p>
@@ -649,12 +717,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_getStacks">
         getStacks()
-        <a href="classes/BlocksWorld.html#method_getStacks" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_getStacks" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 </aside>
 
         <p class="phpdocumentor-summary">Getter for roperty &quot;stacks&quot;</p>
@@ -683,12 +751,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_moveInto">
         moveInto()
-        <a href="classes/BlocksWorld.html#method_moveInto" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_moveInto" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">105</span>
+    <span class="phpdocumentor-element-found-in__line">111</span>
 </aside>
 
         <p class="phpdocumentor-summary">Performs an operation &quot;move a into b&quot;</p>
@@ -738,12 +806,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_moveOver">
         moveOver()
-        <a href="classes/BlocksWorld.html#method_moveOver" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_moveOver" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">121</span>
+    <span class="phpdocumentor-element-found-in__line">127</span>
 </aside>
 
         <p class="phpdocumentor-summary">Performs an operation &quot;move a over b&quot;</p>
@@ -793,12 +861,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_pileInto">
         pileInto()
-        <a href="classes/BlocksWorld.html#method_pileInto" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_pileInto" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">138</span>
+    <span class="phpdocumentor-element-found-in__line">144</span>
 </aside>
 
         <p class="phpdocumentor-summary">Performs an operation &quot;pile a into b&quot;</p>
@@ -848,12 +916,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_pileOver">
         pileOver()
-        <a href="classes/BlocksWorld.html#method_pileOver" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_pileOver" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">155</span>
+    <span class="phpdocumentor-element-found-in__line">161</span>
 </aside>
 
         <p class="phpdocumentor-summary">Performs an operation &quot;pile a over b&quot;</p>
@@ -903,12 +971,12 @@ and false if operation is &quot;pile&quot;</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_putStackToBlock">
         putStackToBlock()
-        <a href="classes/BlocksWorld.html#method_putStackToBlock" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_putStackToBlock" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">201</span>
+    <span class="phpdocumentor-element-found-in__line">207</span>
 </aside>
 
         <p class="phpdocumentor-summary">Put all blocks from $source to the block $number if $into is true or
@@ -968,12 +1036,12 @@ on top of stack with block $number if $into is false</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_showCondition">
         showCondition()
-        <a href="classes/BlocksWorld.html#method_showCondition" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_showCondition" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">92</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 </aside>
 
         <p class="phpdocumentor-summary">The method showCondition put out on console current etas</p>
@@ -1002,12 +1070,12 @@ on top of stack with block $number if $into is false</p>
 >
     <h4 class="phpdocumentor-element__name" id="method_checkIsLegal">
         checkIsLegal()
-        <a href="classes/BlocksWorld.html#method_checkIsLegal" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#method_checkIsLegal" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/BlocksWorld.php"><a href="files/src-blocksworld.html"><abbr title="src/BlocksWorld.php">BlocksWorld.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">240</span>
+    <span class="phpdocumentor-element-found-in__line">246</span>
 </aside>
 
         <p class="phpdocumentor-summary">Check if command is legal.</p>
@@ -1065,7 +1133,7 @@ on top of stack with block $number if $into is false</p>
 </section>
             </div>
         </div>
-        <a href="classes/BlocksWorld.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Balan-TestSalesfloor-BlocksWorld.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

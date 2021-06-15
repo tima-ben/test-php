@@ -1,104 +1,134 @@
 Search.appendIndex(
     [
                 {
-            "fqsen": "\\BlocksWorld",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld",
             "name": "BlocksWorld",
             "summary": "",
-            "url": "classes/BlocksWorld.html"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003A__construct\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "",
-            "url": "classes/BlocksWorld.html#method___construct"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method___construct"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AgetBlocks\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AgetBlocks\u0028\u0029",
             "name": "getBlocks",
             "summary": "Getter\u0020for\u0020property\u0020\u0022block\u0022",
-            "url": "classes/BlocksWorld.html#method_getBlocks"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_getBlocks"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AgetStacks\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AgetStacks\u0028\u0029",
             "name": "getStacks",
             "summary": "Getter\u0020for\u0020roperty\u0020\u0022stacks\u0022",
-            "url": "classes/BlocksWorld.html#method_getStacks"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_getStacks"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AgetN\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AgetN\u0028\u0029",
             "name": "getN",
             "summary": "Getter\u0020for\u0020property\u0020\u0022n\u0022",
-            "url": "classes/BlocksWorld.html#method_getN"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_getN"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AshowCondition\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AshowCondition\u0028\u0029",
             "name": "showCondition",
             "summary": "The\u0020method\u0020showCondition\u0020put\u0020out\u0020on\u0020console\u0020current\u0020etas",
-            "url": "classes/BlocksWorld.html#method_showCondition"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_showCondition"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AmoveInto\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AmoveInto\u0028\u0029",
             "name": "moveInto",
             "summary": "Performs\u0020an\u0020operation\u0020\u0022move\u0020a\u0020into\u0020b\u0022",
-            "url": "classes/BlocksWorld.html#method_moveInto"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_moveInto"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AmoveOver\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AmoveOver\u0028\u0029",
             "name": "moveOver",
             "summary": "Performs\u0020an\u0020operation\u0020\u0022move\u0020a\u0020over\u0020b\u0022",
-            "url": "classes/BlocksWorld.html#method_moveOver"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_moveOver"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003ApileInto\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003ApileInto\u0028\u0029",
             "name": "pileInto",
             "summary": "Performs\u0020an\u0020operation\u0020\u0022pile\u0020a\u0020into\u0020b\u0022",
-            "url": "classes/BlocksWorld.html#method_pileInto"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_pileInto"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003ApileOver\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003ApileOver\u0028\u0029",
             "name": "pileOver",
             "summary": "Performs\u0020an\u0020operation\u0020\u0022pile\u0020a\u0020over\u0020b\u0022",
-            "url": "classes/BlocksWorld.html#method_pileOver"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_pileOver"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AcutBlockFromStack\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AcutBlockFromStack\u0028\u0029",
             "name": "cutBlockFromStack",
             "summary": "Cut\u0020from\u0020stack\u0020one\u0020block\u0020\u0024number\u0020from\u0020stack\u0020if\u0020\u0024move\u0020\u003D\u0020true\u0020or\nall\u0020blocks\u0020start\u0020from\u0020\u0024number\u0020to\u0020the\u0020end\u0020if\u0020\u0024move\u0020\u003D\u0020false.",
-            "url": "classes/BlocksWorld.html#method_cutBlockFromStack"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_cutBlockFromStack"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AputStackToBlock\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AputStackToBlock\u0028\u0029",
             "name": "putStackToBlock",
             "summary": "Put\u0020all\u0020blocks\u0020from\u0020\u0024source\u0020to\u0020the\u0020block\u0020\u0024number\u0020if\u0020\u0024into\u0020is\u0020true\u0020or\non\u0020top\u0020of\u0020stack\u0020with\u0020block\u0020\u0024number\u0020if\u0020\u0024into\u0020is\u0020false",
-            "url": "classes/BlocksWorld.html#method_putStackToBlock"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_putStackToBlock"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AgetStackByBlock\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AgetStackByBlock\u0028\u0029",
             "name": "getStackByBlock",
             "summary": "The\u0020method\u0020getStackByBlock\u0020return\u0020index\u0020of\u0020stack\u0020where\u0020this\u0020block\u0020is\u0020located.",
-            "url": "classes/BlocksWorld.html#method_getStackByBlock"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_getStackByBlock"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AcheckIsLegal\u0028\u0029",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AcheckIsLegal\u0028\u0029",
             "name": "checkIsLegal",
             "summary": "Check\u0020if\u0020command\u0020is\u0020legal.",
-            "url": "classes/BlocksWorld.html#method_checkIsLegal"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_checkIsLegal"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003ADEFAULT_BLOCK_COUNT",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AcommandFromString\u0028\u0029",
+            "name": "commandFromString",
+            "summary": "Make\u0020command\u0020from\u0020string",
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#method_commandFromString"
+        },                {
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003ADEFAULT_BLOCK_COUNT",
             "name": "DEFAULT_BLOCK_COUNT",
             "summary": "",
-            "url": "classes/BlocksWorld.html#constant_DEFAULT_BLOCK_COUNT"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#constant_DEFAULT_BLOCK_COUNT"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003AMAX_BLOCK_COUNT",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AMAX_BLOCK_COUNT",
             "name": "MAX_BLOCK_COUNT",
             "summary": "",
-            "url": "classes/BlocksWorld.html#constant_MAX_BLOCK_COUNT"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#constant_MAX_BLOCK_COUNT"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003A\u0024blocks",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003AMIN_BLOCK_COUNT",
+            "name": "MIN_BLOCK_COUNT",
+            "summary": "",
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#constant_MIN_BLOCK_COUNT"
+        },                {
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003A\u0024blocks",
             "name": "blocks",
             "summary": "The\u0020value\u0020is\u0020the\u0020number\u0020of\u0020stack\u0020where\u0020the\u0020block\u0020is\u0020located",
-            "url": "classes/BlocksWorld.html#property_blocks"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#property_blocks"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003A\u0024stacks",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003A\u0024stacks",
             "name": "stacks",
             "summary": "The\u0020value\u0020is\u0020the\u0020array\u0020the\u0020numbers\u0020of\u0020blocks\u0020in\u0020stack",
-            "url": "classes/BlocksWorld.html#property_stacks"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#property_stacks"
         },                {
-            "fqsen": "\\BlocksWorld\u003A\u003A\u0024n",
+            "fqsen": "\\Balan\\TestSalesfloor\\BlocksWorld\u003A\u003A\u0024n",
             "name": "n",
             "summary": "",
-            "url": "classes/BlocksWorld.html#property_n"
+            "url": "classes/Balan-TestSalesfloor-BlocksWorld.html#property_n"
+        },                {
+            "fqsen": "\\run_from_file\u0028\u0029",
+            "name": "run_from_file",
+            "summary": "Make\u0020command\u0020from\u0020file",
+            "url": "namespaces/default.html#function_run_from_file"
+        },                {
+            "fqsen": "\\run_from_input\u0028\u0029",
+            "name": "run_from_input",
+            "summary": "Make\u0020command\u0020from\u0020console",
+            "url": "namespaces/default.html#function_run_from_input"
         },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
             "url": "namespaces/default.html"
+        },                {
+            "fqsen": "\\Balan\\TestSalesfloor",
+            "name": "TestSalesfloor",
+            "summary": "",
+            "url": "namespaces/balan-testsalesfloor.html"
+        },                {
+            "fqsen": "\\Balan",
+            "name": "Balan",
+            "summary": "",
+            "url": "namespaces/balan.html"
         }            ]
 );
