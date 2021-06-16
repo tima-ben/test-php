@@ -55,3 +55,15 @@ Test class __BlocksWorld__
 ```bash
 vendor/bin/phpunit tests/BlocksWorldTest.php
 ```
+
+## Fibonacci sequence
+
+For check Fibonacci sequence execute next command
+
+```bash
+php src/fibonacci.php
+```
+
+This command show runtime function with and without recursion.
+
+You can make conclusion yourself. ;)
