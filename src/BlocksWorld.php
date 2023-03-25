@@ -1,6 +1,6 @@
 <?php
 /**
- * @link https://github.com/tima-ben/test-salesfloor
+ * @link https://github.com/tima-ben/test-php
  * @copyright Copyright (c) 2021 Eduard Balantsev
  */
 
@@ -12,7 +12,7 @@
  * @property int $n size of the world of blocks
  */
 
-namespace Balan\TestSalesfloor;
+namespace Balan\TestXyz;
 
 class BlocksWorld
 {
