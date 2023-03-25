@@ -1,6 +1,6 @@
-# test-salesfloor
+# test-php
 
-Test for Salesfloor company on post sr. PHP Developer
+Test for XYZ company on post sr. PHP Developer
 
 Task description you can read [here](./DESCRIPTION.md)
 
@@ -11,7 +11,7 @@ Documentation you can see **./docs/api/index.html** (_note:_ open this file on w
 Checkout project
 
 ```bash
-git clone https://github.com/tima-ben/test-salesfloor.git
+git clone https://github.com/tima-ben/test-php.git
 ```
 
 Go to project directory and run composer install
