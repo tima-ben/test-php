@@ -1,6 +1,6 @@
 <?php 
 use PHPUnit\Framework\TestCase;
-use Balan\TestSalesfloor\BlocksWorld;
+use Balan\TestXyz\BlocksWorld;
 
 class BlocksWorldTest extends TestCase
 {
