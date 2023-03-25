@@ -1,6 +1,6 @@
 <?php
 require __DIR__."/../vendor/autoload.php";
-use Balan\TestSalesfloor\BlocksWorld;
+use Balan\TestXyz\BlocksWorld;
 /**
  * Make command from file
  */
