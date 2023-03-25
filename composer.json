@@ -1,6 +1,6 @@
 {
-    "name": "balan/test-salesfloor",
-    "description": "Test for Salesfloor company on post sr. PHP Developer",
+    "name": "balan/test-php",
+    "description": "Test for XYZ company on post sr. PHP Developer",
     "type": "project",
     "require": {
         "phpunit/phpunit": "8.5.x-dev"
@@ -8,7 +8,7 @@
     "license": "Free",
     "autoload": {
         "psr-4": {
-            "Balan\\TestSalesfloor\\": "src/"
+            "Balan\\TestXyz\\": "src/"
         }
     },
     "authors": [
